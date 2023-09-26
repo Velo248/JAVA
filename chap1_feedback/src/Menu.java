@@ -29,8 +29,8 @@ enum MenuTable {
 public class Menu {
     private MenuTable menuTable;
 
-    Menu() {}
-    public void setMenu(Integer menu) {
+//    Menu() {}
+    public Menu(Integer menu) {
         switch (menu) {
             case 1:
                 this.menuTable = MenuTable.KOREAN;
